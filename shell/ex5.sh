@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+#biggest of 2 nos
+if [ $1 -gt $2 ];
+    then 
+        echo "$1 is greater than $2"
+    else 
+        echo "$2 is greater than $1"
+fi
+printf "$# : No of arguments passed"
